@@ -1,11 +1,12 @@
-<html>
-    <head>
-        <img src="../Images/LNYBanner.jpg" >
-            <title>Happy Lunar New Years!</title>
+
+    
+<head>
+        <img src="" >
+            <title>Best Chinese Food Ever!</title>
 
     </head>
     <body>
-            <h1>Happy Lunar New Years!</h1>
+            <h1>Best Take out food ever!</h1>
             <h3>Here is a little information on the upcoming new year. What to do and what not to do.</h3>
     </header>
 
@@ -13,94 +14,45 @@
 <main>
     <section>
                 <h2>About Me</h2>
-                <p>Hello this is a page about me. Let me know what you think about my webpage. 
-                    The last time I wrote a website was in dream wiever back in 2012. I'm just getting back into this.</p>
-
+                <p>This is a practice page</p>
     </section>
-    <section>
-            <article>
-<img src="../Images/DirtyRoom.jpg" />
+    <section id="contact-form">
+        <h2>Place Order</h2>
+        <form method="GET" action="place-order.php">
+            <h4>Delivery</h4>
+            <input name="Delivery" type="radio" value="delivery" /> Delivery <br />
+            <input name="Delivery" type="radio" value="pickup"/>Pickup <br />
 
-                    <a href="#"><h3> This is the year of the rabbit. Here is a room that has bad luck. </h3></a>
-                    <p> Here is a photo of a room that has bad luck. For the new year you need to clean your room to
-                    good luck and energy coming in to your room.
-                </p>
-                <br/><br/>
-            </article>
 
-            <article>
-                <img src="../Images/shower.jpg" />
-                <a href="#"><h3>Make sure to shower before the new years starts. </h3></a>
-                <p> Myth or real? You should shower before the new years start becuase many culture believes that you might 
-                    wash away your luck on the new year.
-            </p>
-            <br/><br/>
-        </article>
+            <h4>address</h4>
+            <input name="address1" placeholder="Address line 1" class="lrg-input"/><br />
+            <input name="address2" placeholder="Address line 2" class="lrg-input"/><br />
 
-        <article>
-            <img src="../Images/clean house.jpg" />
-            <a href="#"><h3> Make sure to clean the house. Before the new years </h3></a>
-            <p> if you clean the house then good luck will come in to your house.
-        </p>
-        <br/><br/>
-    </article>
+            <input name="city" placeholder="City" class="sm-input" /><br />
+            <input name="state" placeholder="State" class="sm-input" /><br />
+            <input name="Zip" placeholder="Zip Code" class="sm-input" /><br />
 
-<article>
-    <img src="../Images/Trashout.jpeg" />
-    <a href="#"><h3> Clean the dishes and take out the trash </h3></a>
-    <p> Pretty much you are doing your chores.
-</p>
-<br/><br/>
-</article>
+            <h4>Size</h4>
+            <select name="size">
+                    <option value="sm">sm" - $7.99</option>
+                    <option value="md">md" - $10.99</option>
+                    <option value="Lg">Lg" - $14.99</option>
+                    <option value="xl">xl" - $19.99</option>
 
-<form method="GET"  action="place-order.php">
+            </select>
+
+            <h4>Ingredient</h4>
+            <input name="ingredient" type="checkbox" value="Orange Chicken" />Orange Chicken<br />
+            <input name="ingredient" type="checkbox" value="Light Sauce"/>Light Sauce<br />
+            <input name="ingredient" type="checkbox" value="Extra Sauce"/>Extra Sauce<br />
+            <input name="ingredient" type="checkbox" value="Normal Sauce"/>Normal Sauce<br />
+            <input name="ingredient" type="checkbox" value="No sauce"/> No sauce<br />
+
+
+                <button type="submit">place order</button>
+        </form>
+    </section>
     
-
-
-</form>
-
-    </section>
-
-
-
-    <!-----Table practice--->
-       <table>
-        <thread>
-            <tr>
-                    <th>Type</th>
-                    <th>Ingredients</th>
-                    <th>price</th>
-            </tr>
-
-        </thread>
-        <tbody>
-            <tr>
-                    <td>Orange Cheicken</td>
-                    <td>Orange sauce, Chicken</td>
-                    <td>$9.99</td>
-            </tr> 
-
-            <tr>
-                    <td>Lo main</td>
-                    <td>Noodles, Chicken, Greens</td>
-                    <td>$5.99</td>
-            </tr>
-             <tr>
-                    <td>seasame chicken</td>
-                    <td>chicken, seasame, sauce</td>
-                    <td>$7.99</td>
-
-
-               </tr>
-
-        </tbody>
-
-       </table>
-
-
-
-
-
 </main>
 
 <footer>&copy; 2017<br/> 
